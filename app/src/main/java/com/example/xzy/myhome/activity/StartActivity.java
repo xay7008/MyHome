@@ -30,10 +30,10 @@ public class StartActivity extends BaseActivity {
 
     @Override
     protected void onStart() {
+        //311
         super.onStart();
         final String account = mSharedPreferences.getString("account", "");
         final String password = mSharedPreferences.getString("password", "");
-            //启动界面选择
             new Handler().postDelayed(new Runnable() {
                 @Override
                 public void run() {
